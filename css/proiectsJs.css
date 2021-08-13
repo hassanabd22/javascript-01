@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  text-transform: capitalize;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #444;
+}
+
+a:hover {
+  color: #999;
+}
+
+nav {
+  height: 100px;
+  padding-left: 20%;
+  padding-right: 20%;
+  text-shadow: 1px 1px #fff;
+}
+
+.nav-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
+}
+
+.nav-center ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav-center li {
+  margin-left: 20px;
+}
+
+.nav-center span {
+  color: #f15025;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 80vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.container h2 {
+  background-color: #191919;
+  color: white;
+  border-radius: 20px;
+  padding: 15px 40px;
+  border: 1px solid white;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.container .btn {
+  display: block;
+  background-color: #222;
+  border: 1px solid white;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 15px;
+  font-weight: bold;
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+.container .color {
+  display: block;
+  color: #fffefe;
+  margin-bottom: 30px;
+  background-color: #464444;
+  padding: 10px 30px;
+  border-radius: 15px;
+  font-size: 18px;
+}
+/*# sourceMappingURL=proiectsJs.css.map */
